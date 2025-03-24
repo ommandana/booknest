@@ -1,0 +1,131 @@
+/* Hero Section */
+.hero {
+  width: 100%;
+  min-height: 60vh;
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAE6D0; /* Soft Skin Beige */
+  text-align: center;
+}
+
+/* Hero Heading */
+.hero h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #5C4033; /* Warm Brown */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Paragraph */
+.hero p {
+  color: #7D5A50; /* Soft Brown */
+  margin: 15px 0 30px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Get Started Button */
+.hero .btn-get-started {
+  color: #FFF5E1; /* Soft Cream White */
+  background: #A67B5B; /* Rich Brown */
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.hero .btn-get-started:hover {
+  background: #8B5E3C; /* Deeper Brown */
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Watch Video Button */
+.hero .btn-watch-video {
+  font-size: 16px;
+  transition: 0.5s;
+  margin-left: 25px;
+  color: #5C4033; /* Warm Brown */
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.hero .btn-watch-video i {
+  color: #C69C7B; /* Light Cocoa */
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 0;
+  margin-right: 8px;
+}
+
+.hero .btn-watch-video:hover {
+  color: #C69C7B; /* Soft Cocoa */
+}
+
+.hero .btn-watch-video:hover i {
+  color: #A67B5B; /* Richer Brown */
+}
+
+/* Floating Animation */
+.hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {
+      transform: translateY(10px);
+  }
+  100% {
+      transform: translateY(-10px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+      padding: 60px 20px;
+  }
+
+  .hero h1 {
+      font-size: 48px;
+  }
+
+  .hero p {
+      font-size: 18px;
+  }
+
+  .hero .btn-get-started {
+      font-size: 14px;
+      padding: 10px 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+      font-size: 36px;
+  }
+
+  .hero p {
+      font-size: 16px;
+  }
+
+  .hero .btn-get-started {
+      font-size: 13px;
+      padding: 8px 20px;
+  }
+
+  .hero .btn-watch-video {
+      font-size: 14px;
+  }
+}

@@ -1,0 +1,117 @@
+/* BooksList.css */
+.books-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    background-color: #F9E5D3; /* Soft Creamy Background */
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(90, 62, 43, 0.15);
+}
+
+h2 {
+    font-weight: 700;
+    color: #5A3E2B; /* Deep Rich Brown */
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #9C6B3C, #5A3E2B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #E5C4A1; /* Warm Brown */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(90, 62, 43, 0.25);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    text-align: center;
+    padding: 15px;
+    background-color: #F5E2D3; /* Soft Beige */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #5A3E2B; /* Deep Brown */
+}
+
+.card-text {
+    font-size: 15px;
+    color: #7A5B46; /* Warm Mocha */
+}
+
+.text-center {
+    color: #6A4B3C; /* Soft Coffee */
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+
+.dashboard-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .total-products { background-color: #00bcd4; }
+  .new-users { background-color: #e91e63; }
+  .new-orders { background-color: #ff9800; }
+  .total-profit { background-color: #4caf50; }
+  
+  .charts {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    width: 48%;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .recent-activity {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .recent-buyers, .recent-orders {
+    width: 48%;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  

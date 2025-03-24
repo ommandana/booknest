@@ -1,0 +1,77 @@
+/* 🌟 Card Payment Section */
+.card-payment {
+  margin-top: 20px;
+  padding: 18px;
+  background: #F8ECE3; /* Light Beige */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 🎟️ Input Field Container */
+.card-payment .input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/* 🔢 Card Number (Full Width) */
+.card-payment .card-number {
+  width: 100%;
+}
+
+/* 📆 Expiry & CVV (Two-Column Layout) */
+.card-payment .row {
+  display: flex;
+  gap: 15px;
+}
+
+.card-payment .row .input-group {
+  flex: 1;
+}
+
+/* ✍️ Input Fields */
+.card-payment input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #D1B7A1; /* Soft Brown Border */
+  border-radius: 6px;
+  background-color: #F5E3D3; /* Light Skin Tone */
+  color: #3F2D20; /* Rich Brown */
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+/* 🏷️ Labels */
+.card-payment label {
+  font-weight: 600;
+  color: #3F2D20; /* Rich Brown */
+  margin-bottom: 5px;
+}
+
+/* 🏆 Input Focus */
+.card-payment input:focus {
+  border-color: #8B5E3C; /* Highlight on focus */
+  outline: none;
+  box-shadow: 0 2px 6px rgba(139, 94, 60, 0.2);
+}
+
+/* 🛑 Error Handling */
+.error-input {
+  border-color: #D9534F !important; /* Soft Red */
+  background: rgba(217, 83, 79, 0.1);
+}
+
+.error-message {
+  color: #D9534F;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: -8px;
+}
+
+/* 📱 Responsive Fix */
+@media (max-width: 768px) {
+  .card-payment .row {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

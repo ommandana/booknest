@@ -1,0 +1,57 @@
+.profile-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    background: linear-gradient(to right, #f8f1eb, #e3d5ca);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-info p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .edit-btn {
+    background: #6a11cb;
+    color: white;
+  }
+  
+  .update-btn {
+    background: #28a745;
+    color: white;
+  }
+  
+  .logout-btn {
+    background: #ffcc00;
+  }
+  
+  .delete-btn {
+    background: #ff5b5b;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  

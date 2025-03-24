@@ -1,0 +1,75 @@
+/* Contact Us Container */
+.contact-us-container {
+    max-width: 1000px;
+    margin: 40px auto 50px;
+    padding: 20px;
+    background-color: #FAE6D0; /* Soft Skin Beige */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.contact-us-title {
+    text-align: center;
+    color: #5C4033; /* Warm Brown */
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Form Styling */
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.form-label {
+    font-weight: bold;
+    color: #7D5A50; /* Soft Brown */
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Inputs */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C9A78B; /* Muted Brown */
+    border-radius: 5px;
+    font-size: 16px;
+    background: #FFF5E1; /* Light Cream */
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #A67B5B; /* Richer Brown */
+    outline: none;
+}
+
+/* Error Messages */
+.error-message {
+    color: #D9534F;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: #A67B5B; /* Rich Brown */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #8B5E3C; /* Deeper Brown */
+}

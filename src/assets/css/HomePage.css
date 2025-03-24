@@ -1,0 +1,111 @@
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #E6C7A1, #D8B090); /* Soft Skin Brown Gradient */
+  color: #5C4033; /* Warm Brown */
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  color: #684523; /* Rich Brown */
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #7D5A50; /* Soft Cocoa */
+}
+
+.hero-img {
+  max-width: 60%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgb(255, 255, 255);
+}
+
+/* Buttons */
+.btn-get-started {
+  background: #8B5E3C; /* Rich Brown */
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-get-started:hover {
+  background: #A67B5B; /* Soft Brown */
+  transform: translateY(-2px);
+}
+
+/* Sections */
+.best-sellers, .new-arrivals, .about, .why-choose-us, .contact-us {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #F5E3D3; /* Light Skin Tone */
+}
+
+/* Book List */
+.book-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.book-item {
+  padding: 15px;
+  background: #F8ECE3; /* Light Beige */
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+.about-img {
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Why Choose Us */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.feature {
+  padding: 15px;
+  background: #E3D1BF; /* Elegant Soft Brown */
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #F8ECE3; /* Light Beige */
+  border: 1px solid #D1B7A1; /* Soft Brown Border */
+  border-radius: 5px;
+  color: #3F2D20;
+}
+
+.contact-form button {
+  background: #8B5E3C; /* Warm Brown */
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #A67B5B; /* Softer Brown */
+  transform: scale(1.05);
+}

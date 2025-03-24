@@ -1,0 +1,73 @@
+/* Registered Users Page Styles */
+.registered-users-container {
+    padding: 20px;
+    background: #F3E5D8; /* Soft Creamy Beige */
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(90, 62, 43, 0.15);
+}
+
+h2 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #A67C52, #5A3E2B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search-input, .filter-dropdown {
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #B08D69; /* Soft Brown */
+    border-radius: 6px;
+    background: #E8D3B5; /* Light Beige */
+    color: #5A3E2B;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.search-input:focus, .filter-dropdown:focus {
+    border-color: #A67C52; /* Darker Brown */
+    outline: none;
+    box-shadow: 0 0 6px rgba(166, 124, 82, 0.5);
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FAF3EB; /* Soft Warm White */
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.user-table th, .user-table td {
+    padding: 12px;
+    border: 1px solid #D8BFA5; /* Subtle Soft Brown */
+    text-align: left;
+}
+
+.user-table th {
+    background: #A67C52; /* Rich Brown */
+    color: white;
+}
+
+.role-admin {
+    color: #B0413E; /* Warm Red */
+    font-weight: bold;
+}
+
+.role-user {
+    color: #3F704D; /* Soft Green */
+    font-weight: bold;
+}
+
+.role-seller {
+    color: #D89B41; /* Warm Orange */
+    font-weight: bold;
+}
+
+.user-table tr:hover {
+    background: rgba(255, 239, 217, 0.5); /* Light Warm Hover */
+    transition: 0.3s ease-in-out;
+}

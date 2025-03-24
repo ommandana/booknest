@@ -1,0 +1,83 @@
+/* Header */
+.header {
+  background-color: #8B5E3C; /* Soft Cocoa */
+  color: #FFF5E1;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Website Name */
+.header .sitename {
+  font-size: 32px;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  color: #FFF5E1; /* Soft Beige */
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  text-decoration: none !important;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(90deg, #D6B89C, #C69C7B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 8px rgba(194, 135, 92, 0.5);
+}
+
+/* Hover Effect */
+.header .sitename:hover {
+  background: linear-gradient(90deg, #C69C7B, #8B5E3C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 3px 3px 12px rgba(194, 92, 61, 0.6);
+}
+
+/* Navigation */
+.navmenu ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navmenu ul li a {
+  text-decoration: none;
+  color: #FFF5E1;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navmenu ul li a:hover {
+  color: #D6B89C; /* Soft Tan */
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+  font-size: 24px;
+  color: #FFF5E1;
+  cursor: pointer;
+  display: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .navmenu ul {
+      flex-direction: column;
+      background: rgba(139, 94, 60, 0.9);
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      display: none;
+  }
+
+  .mobile-nav-active .navmenu ul {
+      display: flex;
+  }
+
+  .mobile-nav-toggle {
+      display: block;
+  }
+}

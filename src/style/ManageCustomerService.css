@@ -1,0 +1,88 @@
+/* Customer Service Page Styles */
+.customer-service-container {
+    padding: 20px;
+    background: #F3E5D8; /* Soft Creamy Background */
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(90, 62, 43, 0.15);
+}
+
+h2 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #A67C52, #5A3E2B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.filter-dropdown {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #B08D69; /* Soft Brown */
+    border-radius: 5px;
+    background: #E8D3B5; /* Light Beige */
+    color: #5A3E2B;
+}
+
+.ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FAF3EB; /* Soft Warm White */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ticket-table th, .ticket-table td {
+    padding: 12px;
+    border: 1px solid #D8BFA5; /* Subtle Soft Brown */
+    text-align: left;
+}
+
+.ticket-table th {
+    background: #A67C52; /* Rich Brown */
+    color: white;
+}
+
+.ticket-table .pending {
+    color: #D89B41; /* Warm Orange */
+    font-weight: bold;
+}
+
+.ticket-table .resolved {
+    color: #3F704D; /* Soft Green */
+    font-weight: bold;
+}
+
+.ticket-table .closed {
+    color: #B0413E; /* Warm Red */
+    font-weight: bold;
+}
+
+.resolve-btn, .close-btn {
+    padding: 6px 12px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.resolve-btn {
+    background: #4F8659; /* Deep Green */
+    color: white;
+    transition: 0.3s;
+}
+
+.resolve-btn:hover {
+    background: #3F704D; /* Darker Green */
+}
+
+.close-btn {
+    background: #A23E3A; /* Rich Red */
+    color: white;
+    transition: 0.3s;
+}
+
+.close-btn:hover {
+    background: #8C332F; /* Darker Red */
+}

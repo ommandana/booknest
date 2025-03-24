@@ -1,0 +1,79 @@
+/* Footer Styling */
+.footer {
+  background-color: #5C4033; /* Deep Brown */
+  color: #FFF5E1; /* Soft Beige */
+  padding: 30px 0;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Content */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Footer Section */
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+/* Footer Title */
+.footer-section h6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #E6C7A8; /* Soft Coffee */
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/* Footer Links */
+.footer-section a {
+  text-decoration: none;
+  color: #D6B89C; /* Light Brown */
+  transition: color 0.3s ease-in-out;
+  display: block;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer-section a:hover {
+  color: #C69C7B; /* Warm Cocoa */
+}
+
+/* Social Icons */
+.footer-social-icons a {
+  font-size: 20px;
+  color: #E6C7A8;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-social-icons a:hover {
+  color: #C69C7B;
+}
+
+/* Copyright */
+.footer-bottom {
+  background-color: rgba(92, 64, 51, 0.2);
+  padding: 10px;
+  font-size: 14px;
+  color: #E6C7A8;
+}
+
+/* Responsive Footer */
+@media screen and (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
+}
